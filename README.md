@@ -19,7 +19,6 @@ agents-for-reproducibility/
   README.md                         # Public entry point for organisers and collaborators
   AGENTS.md                         # Instructions for Codex and other agentic tools
   CLAUDE.md                         # Companion instructions for Claude-style agents
-  CLOUD.md                          # Cloud, publishing, and external-service notes
   docs/publicity/                   # Public-facing abstract and promotional copy
   planning/                         # Workshop design, outline, concepts, decisions
   facilitator/                      # Organiser and facilitator notes

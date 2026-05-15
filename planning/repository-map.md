@@ -33,4 +33,3 @@ This file records what belongs where as the workshop planning system grows.
 ## Website and Cloud
 
 - `website/` - future public site or Cloudflare-ready output.
-- `CLOUD.md` - cloud and publishing principles.
