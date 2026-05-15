@@ -1,0 +1,11 @@
+id,role,uses_ai_tools,main_use,main_concern,confidence_1_to_5
+S01,doctoral researcher,yes,brainstorming,accuracy,3
+S02,research support,yes,documentation,traceability,4
+S03,principal investigator,no,none,data governance,2
+S04,postdoctoral researcher,yes,code help,reproducibility,3
+S05,professional services,yes,meeting notes,privacy,4
+S06,master's student,yes,literature explanation,citation uncertainty,2
+S07,lab technician,no,none,system permissions,2
+S08,doctoral researcher,yes,file organisation,over-reliance,3
+S09,research software engineer,yes,script drafting,verification burden,4
+S10,research manager,yes,planning,policy uncertainty,3
