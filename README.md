@@ -30,6 +30,12 @@ The first version is planned as a full-day, in-person workshop. The day gives pa
 
 See [planning/session-outline.md](planning/session-outline.md) for the current structure.
 
+## About the Facilitator
+
+Dominik is an AI Consultant at the Oxford e-Research Centre and part of the University's AI Competency Centre. His work connects applied AI, academic practice, linguistics, education technology, accessibility, and research workflows. He designs practical training and tools that help researchers use generative AI with clearer documentation, evidence, and review.
+
+More at [dominiklukes.net](https://dominiklukes.net).
+
 ## Prepare Before the Workshop
 
 Participants should bring a laptop with working internet access and permission to install or use software. They should install Codex, install or confirm Git, create or confirm access to a GitHub account, and avoid using sensitive, confidential, identifiable, restricted, or embargoed research data during the exercises.
