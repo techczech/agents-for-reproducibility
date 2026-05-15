@@ -11,7 +11,7 @@ Please complete as much of this setup as possible before the workshop. Helpers w
 - Install Git, or confirm that Git is already available.
 - Create or confirm access to a GitHub account.
 - Create or confirm access to a free Cloudflare account.
-- Download or clone the workshop sample project when instructed by the organisers.
+- Download or clone the workshop sample project when instructed.
 - Create a working folder on your laptop where Codex is allowed to read and write files.
 - Do not use sensitive, confidential, identifiable, restricted, or embargoed research data during the workshop exercises.
 
@@ -25,6 +25,7 @@ Please complete as much of this setup as possible before the workshop. Helpers w
 
 - Codex for agentic work with local files.
 - `AGENTS.md` for project instructions.
+- Agent Skills with `SKILL.md` for reusable workflows.
 - Git and GitHub for versioning.
 - Cloudflare for publishing a simple output.
 - Command-line tools or MCP servers for connecting agents to external services.

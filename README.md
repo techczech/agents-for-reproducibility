@@ -1,54 +1,60 @@
 # Using AI Agents for Reproducible Research
 
-This repository contains the planning system and reusable workshop materials for **Using AI Agents for Reproducible Research**.
+This repository contains the workshop materials, planning notes, participant setup, exercises, fictional sample project, and website draft for **Using AI Agents for Reproducible Research**.
 
-The workshop introduces the use of AI agents to help researchers produce more reproducible research workflows. Codex is the main example. The focus is on how agents combine language models with ordinary computing infrastructure: files, folders, command-line tools, Git, GitHub, Cloudflare, external services, and reusable project instructions.
+The workshop introduces AI agents as practical tools for making research work easier to inspect, repeat, document, and share. Codex is the main example because it can work with ordinary project folders, files, commands, Git, GitHub, publishing tools, reusable project instructions, and Agent Skills.
 
-## What Organisers Can Use Now
+## Workshop Abstract
 
-- [Public abstract](docs/publicity/abstract.md)
-- [Organiser brief](facilitator/organiser-brief.md)
-- [Participant setup checklist](participant/setup-checklist.md)
-- [Session outline](planning/session-outline.md)
-- [Key concepts](planning/key-concepts.md)
+This workshop introduces the use of AI agents to help researchers produce more reproducible research workflows from data management to data analysis - for both qualitative and quantitative data. Using Codex as the main example of a coding agent, it will show how agents fit into ordinary computer work and how they can make documentation, data management, versioning, reusable agent instructions, and dissemination practices easier to apply consistently.
+
+Participants will learn the difference between the language model inside an agent and the surrounding computing infrastructure: files, folders, command-line tools, Git, GitHub, cloud services, external tools, `AGENTS.md`, and Agent Skills. The workshop shows how to use Codex to organise research materials, inspect data, create project documentation, and set up instructions that ask the agent to log decisions, preserve evidence, reuse tested workflows, and support reproducibility throughout the research process.
+
+The workshop is suitable for researchers, research students and research support staff who work with documents, transcripts, spreadsheets, notes, or small datasets. No programming experience is required, but participants should be comfortable working with files and folders on their own laptop and should install Codex before attending.
+
+## What Participants Will Do
+
+- Set up a local research-project folder.
+- Use Codex to inspect, organise, and document fictional research materials.
+- Create project instructions in `AGENTS.md`.
+- Create a small Agent Skill using the standard `SKILL.md` structure.
+- Record decisions, uncertainties, source files, scripts, and outputs.
+- Put the project under version control with Git and GitHub.
+- Publish a simple documentation output.
+- Try a small data-analysis task with saved inputs, code, outputs, and notes.
+- Discuss which parts of their own research workflows are suitable for agent support.
+
+## Current Session Plan
+
+The first version is planned as a full-day, in-person workshop. The day gives participants time to install and use Codex, work with a sample project, write project instructions, create a small Agent Skill, use Git and GitHub, publish a simple output, connect to an external tool where appropriate, and complete a small reproducible analysis exercise.
+
+See [planning/session-outline.md](planning/session-outline.md) for the current structure.
+
+## Prepare Before the Workshop
+
+Participants should bring a laptop with working internet access and permission to install or use software. They should install Codex, install or confirm Git, create or confirm access to a GitHub account, and avoid using sensitive, confidential, identifiable, restricted, or embargoed research data during the exercises.
+
+See [participant/setup-checklist.md](participant/setup-checklist.md) for the setup checklist.
 
 ## Repository Structure
 
 ```text
 agents-for-reproducibility/
-  README.md                         # Public entry point for organisers and collaborators
-  AGENTS.md                         # Instructions for Codex and other agentic tools
-  CLAUDE.md                         # Companion instructions for Claude-style agents
-  docs/publicity/                   # Public-facing abstract and promotional copy
-  planning/                         # Workshop design, outline, concepts, decisions
-  facilitator/                      # Organiser and facilitator notes
-  participant/                      # Participant setup and workshop-facing materials
-  exercises/                        # Exercise designs to be developed
-  sample-project/                   # Fictional research project used during the workshop
-  website/                          # Future public website or Cloudflare output
-  admin/                            # Planning checklists and operational notes
+  README.md                         # Repository entry point
+  AGENTS.md                         # Instructions for agentic tools working in this repo
+  planning/                         # Workshop design, page copy, concepts, decisions
+  participant/                      # Participant-facing setup and materials
+  exercises/                        # Exercises, fictional sample project, website draft
+  admin/                            # Operational planning notes
 ```
-
-## Current Workshop Shape
-
-The first pilot is planned as a full-day, in-person workshop with a smaller group and helper support. A 3-hour version can be developed later as a taster, but the full-day version is the right first pilot because it needs time for Codex setup, project instructions, Git/GitHub, Cloudflare publishing, command-line or MCP integration, and a reproducible data-analysis example.
-
-The workshop is designed for researchers, research students, research support staff, and professional services colleagues. No programming experience is assumed, but participants should be comfortable working with files and folders and should install Codex before attending.
 
 ## Core Materials
 
-- `docs/publicity/abstract.md` contains the sober registration-page abstract and 80-word version.
-- `planning/session-outline.md` contains the current workshop outline.
-- `planning/key-concepts.md` defines model, agent, orchestration harness, tools, `AGENTS.md`, Git, GitHub, Cloudflare, MCP, and reproducible analysis.
-- `sample-project/` contains fictional research materials for workshop exercises.
-- `participant/setup-checklist.md` lists what participants should install or create before the session.
-
-## Source
-
-This standalone repository was initialised from the planning material in:
-
-```text
-/Users/dominiklukes/gitrepos/15_training-presentations/dominiks-session-abstracts-archive/
-```
-
-Do not use `codex-token-use-explorer` as a source for this workshop. That was the wrong repository.
+- [Workshop page copy](planning/workshop-page.md)
+- [Session outline](planning/session-outline.md)
+- [Participant setup checklist](participant/setup-checklist.md)
+- [Key concepts](planning/key-concepts.md)
+- [Exercise folder](exercises/)
+- [Agent Skills exercise](exercises/agent-skills/)
+- [Fictional sample project](exercises/sample-project/)
+- [Static website draft](exercises/website/)

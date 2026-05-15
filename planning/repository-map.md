@@ -1,12 +1,11 @@
 # Repository Map
 
-This file records what belongs where as the workshop planning system grows.
+This file records what belongs where as the workshop materials grow.
 
-## Public and Organiser Materials
+## Workshop Materials
 
-- `README.md` - top-level overview.
-- `docs/publicity/abstract.md` - copy organisers can use for registration pages and publicity.
-- `facilitator/organiser-brief.md` - practical organiser guidance.
+- `README.md` - repository entry point for the workshop.
+- `planning/workshop-page.md` - registration-page copy and workshop description.
 
 ## Planning Materials
 
@@ -23,13 +22,12 @@ This file records what belongs where as the workshop planning system grows.
 ## Exercises
 
 - `exercises/codex-explorer/` - exercise for inspecting how Codex completed a task.
+- `exercises/agent-skills/` - exercise for creating a small Agent Skill with `SKILL.md`.
 - `exercises/external-services/` - exercise for command-line or MCP service integration.
 - `exercises/reproducible-analysis/` - exercise for simple analysis with scripts, inputs, outputs, and run notes.
+- `exercises/sample-project/` - fictional research project used during hands-on work.
+- `exercises/website/` - static website draft and publishing exercise.
 
-## Sample Project
+## Admin
 
-- `sample-project/` - fictional research project used during the workshop.
-
-## Website and Cloud
-
-- `website/` - future public site or Cloudflare-ready output.
+- `admin/` - operational notes and next steps that are not participant-facing.

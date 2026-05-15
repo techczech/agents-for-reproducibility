@@ -4,15 +4,15 @@ This exercise will use Codex to create or revise a small data-analysis script.
 
 ## Source Material
 
-Use `sample-project/data/raw/survey-responses.csv` as the initial dataset.
+Use `exercises/sample-project/data/raw/survey-responses.csv` as the initial dataset.
 
 ## Intended Output
 
 The exercise should produce:
 
-- a script in `sample-project/scripts/`
-- an output table or report in `sample-project/outputs/`
-- a decision-log entry in `sample-project/notes/decision-log.md`
+- a script in `exercises/sample-project/scripts/`
+- an output table or report in `exercises/sample-project/outputs/`
+- a decision-log entry in `exercises/sample-project/notes/decision-log.md`
 
 ## Teaching Point
 
