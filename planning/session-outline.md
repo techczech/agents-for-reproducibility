@@ -10,7 +10,7 @@ Using AI Agents for Reproducible Research
 2. Add a small bundle of sample research materials.
 3. Use Codex to inspect, organise, and document the materials.
 4. Use a Codex Explorer exercise to examine how the agent completed a task.
-5. Create `AGENTS.md` and skill instructions that support reproducibility.
+5. Create `AGENTS.md` and a small Agent Skill that support reproducibility.
 6. Put the project under version control with Git and GitHub.
 7. Publish a simple output or documentation site with Cloudflare.
 8. Connect the agent to at least one external service through command-line tools or MCP.
@@ -24,16 +24,17 @@ Using AI Agents for Reproducible Research
 2. How agents work: model, agent, orchestration harness, tools, permissions, and the local computer.
 3. Codex Explorer exercise: use a simple app or guided inspection to see how Codex completed a task and what came from the model versus the computing environment.
 4. Research-folder setup: organise sample materials, create project documentation, and identify what should be logged.
-5. Project instructions: write the first `AGENTS.md` file and basic skill instructions for reproducibility, data management, and decision logging.
+5. Project instructions: write the first `AGENTS.md` file for the project.
+6. Agent Skills: create a small skill folder with a required `SKILL.md`, clear trigger description, concise instructions, and optional references or scripts.
 
 ### Afternoon
 
-6. Versioning: ask Codex to initialise a Git repository, make a first commit, compare changes, and explain the record.
-7. GitHub: connect the local project to GitHub and use the agent to sync or prepare the repository.
-8. Dissemination: ask the agent to build a simple project website or documentation output and publish it with Cloudflare.
-9. Command-line tools and external services: show how Codex can use command-line tools to access external services, including a worked MCP example such as Sketch Engine.
-10. Reproducible analysis: use Codex to write or revise one small data-analysis script, run it, save the outputs, and record the steps taken.
-11. Research planning: discuss where agent-supported reproducibility fits into participants' own research planning, data management, and dissemination workflows.
+7. Versioning: ask Codex to initialise a Git repository, make a first commit, compare changes, and explain the record.
+8. GitHub: connect the local project to GitHub and use the agent to sync or prepare the repository.
+9. Dissemination: ask the agent to build a simple project website or documentation output and publish it with Cloudflare.
+10. Command-line tools and external services: show how Codex can use command-line tools to access external services, including a worked MCP example such as Sketch Engine.
+11. Reproducible analysis: use Codex to write or revise one small data-analysis script, run it, save the outputs, and record the steps taken.
+12. Research planning: discuss where agent-supported reproducibility fits into participants' own research planning, data management, analysis, and dissemination workflows.
 
 ## 3-Hour Taster Version
 
@@ -54,6 +55,7 @@ Using AI Agents for Reproducible Research
 - Create a folder structure.
 - Add README, data inventory, notes, outputs, scripts, and decision log.
 - Write a first `AGENTS.md` file for reproducibility and good data management.
+- Create a minimal Agent Skill with `SKILL.md` for a reusable research task such as source-grounded summarising or data-inventory creation.
 - Use a short Codex Explorer exercise to inspect how a task was completed.
 
 ### 1:25-1:35 - Break

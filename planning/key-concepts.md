@@ -20,9 +20,13 @@ The local project folder is the unit of reproducible work. It should contain the
 
 `AGENTS.md` describes how the agent should behave in a project. In this workshop, it is used to require good research habits: read before editing, do not change raw data, log decisions, name sources, preserve scripts, and record uncertainty.
 
-## Skills
+## Agent Skills
 
-Skills are reusable instructions or procedures that help an agent carry out a repeated workflow. The workshop will introduce the idea of skill files as a way to make reproducible practices easier to repeat.
+Agent Skills are reusable instruction packages that help an agent carry out a repeated workflow. They are useful when a research practice should be repeatable across projects rather than written into one project's `AGENTS.md`.
+
+The standard unit is a skill folder with a required `SKILL.md` file. `SKILL.md` contains YAML frontmatter with a clear `name` and `description`, followed by concise Markdown instructions. A skill can also include optional `scripts/`, `references/`, and `assets/` folders for reusable code, supporting documentation, and templates or files used in outputs.
+
+In this workshop, skills are presented as a way to package reproducible practices: for example, how to create a data inventory, prepare a decision log, summarise sources without inventing evidence, or run a simple analysis while preserving inputs, scripts, outputs, and assumptions.
 
 ## Git
 

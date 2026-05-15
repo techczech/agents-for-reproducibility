@@ -30,23 +30,34 @@ Ask Codex to draft or revise `AGENTS.md` so that it supports reproducible work. 
 - saving scripts and outputs
 - recording uncertainty
 
-## 5. Create a Versioned Project
+## 5. Create a Reusable Skill
+
+Ask Codex to create a small Agent Skill for one repeated research task in this project, such as completing a data inventory or summarising sources without inventing evidence.
+
+The skill should use a `SKILL.md` file with:
+
+- YAML frontmatter with `name` and `description`
+- concise instructions
+- clear guidance on when the skill should be used
+- optional references or scripts only if they make the workflow easier to repeat
+
+## 6. Create a Versioned Project
 
 Ask Codex to initialise a Git repository, make a first commit, and explain what has been saved. If GitHub access is available, ask Codex to prepare or carry out the GitHub sync.
 
-## 6. Publish a Simple Output
+## 7. Publish a Simple Output
 
 Ask Codex to create a simple documentation page or website from the project materials. If Cloudflare access is available, ask Codex to prepare the project for publication through Cloudflare.
 
-## 7. Try an External-Service Workflow
+## 8. Try an External-Service Workflow
 
 Use a facilitator-provided example to show how Codex can work with a command-line tool or MCP server. The first pilot may use Sketch Engine if the setup is ready, or a simpler command-line service if that is more reliable.
 
-## 8. Run a Small Data-Analysis Task
+## 9. Run a Small Data-Analysis Task
 
 Ask Codex to inspect `data/raw/survey-responses.csv` and propose a small script that counts tool-use categories and concern categories. Save the script in `scripts/` and any output in `outputs/`.
 
-## 9. Produce a Short Report
+## 10. Produce a Short Report
 
 Ask Codex to draft a short report in `outputs/short-report.md` that separates:
 
@@ -54,7 +65,7 @@ Ask Codex to draft a short report in `outputs/short-report.md` that separates:
 - what remains uncertain
 - what a researcher should check before using the findings
 
-## 10. Record Decisions and Review the Trace
+## 11. Record Decisions and Review the Trace
 
 Ask Codex to update `notes/decision-log.md` with the choices made during the exercise.
 
