@@ -31,4 +31,3 @@ This file records what belongs where as the workshop materials grow.
 ## Admin
 
 - `admin/` - operational notes and next steps that are not participant-facing.
-- `admin/continuation-prompt.md` - editable handoff prompt for continuing work on the repository with another agent.
