@@ -9,3 +9,5 @@
 | 2026-05-15 | Move the sample project and website draft under `exercises/`. | The sample project and website are hands-on workshop activities rather than top-level planning areas. |
 | 2026-05-15 | Keep registration-page copy in `planning/workshop-page.md`. | The repository should be easier to navigate and more participant-facing. |
 | 2026-05-15 | Make Agent Skills a core workshop topic. | Participants should learn how `AGENTS.md` supports one project and how `SKILL.md` packages reusable workflows across projects. |
+| 2026-06-04 | Set the first full-day workshop start time to 9.30. | The planning meeting agreed a later participant start to allow room access, setup buffer, and travel time. |
+| 2026-06-04 | Keep Cloudflare and external-service work as conditional afternoon paths. | GitHub, Cloudflare, MCP, and command-line service setup may vary across participant laptops, so the workshop needs a local-only fallback. |

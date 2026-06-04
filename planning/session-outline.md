@@ -18,23 +18,69 @@ Using AI Agents for Reproducible Research
 
 ## Recommended Full-Day Version
 
+Confirmed start time: **9.30**.
+
 ### Morning
 
-1. First steps with Codex: installation check, login, folder access, and basic commands.
-2. How agents work: model, agent, orchestration harness, tools, permissions, and the local computer.
-3. Codex Explorer exercise: use a simple app or guided inspection to see how Codex completed a task and what came from the model versus the computing environment.
-4. Research-folder setup: organise sample materials, create project documentation, and identify what should be logged.
-5. Project instructions: write the first `AGENTS.md` file for the project.
-6. Agent Skills: create a small skill folder with a required `SKILL.md`, clear trigger description, concise instructions, and optional references or scripts.
+### 9.30-10.00 - Arrival, Setup, And Frame
+
+- Confirm Codex access, Git availability, folder permissions, and working internet.
+- Explain what the day is and is not: practical agent-supported research workflow, not a chatbot prompt-engineering session.
+- Set the safety boundary: use only fictional workshop data or non-sensitive personal examples.
+
+### 10.00-10.45 - How Agents Work
+
+- Model, agent, orchestration harness, tools, permissions, and the local computer.
+- What comes from the language model and what comes from files, commands, Git, and external tools.
+- Why reproducibility depends on visible work products: notes, scripts, inputs, outputs, logs, and review points.
+
+### 10.45-11.15 - Codex Explorer
+
+- Use a simple app or guided inspection to see how Codex completed a task.
+- Separate model-generated text from environment actions, file changes, shell commands, and user approvals.
+- Identify what a researcher still has to check.
+
+### 11.15-12.30 - Research Folder And Project Instructions
+
+- Organise the sample project materials.
+- Create or revise project documentation: README, data inventory, notes, outputs, scripts, and decision log.
+- Write the first `AGENTS.md` file for the project.
+- Introduce the difference between one-project instructions and reusable Agent Skills.
+
+### 12.30-13.30 - Lunch Or Break
 
 ### Afternoon
 
-7. Versioning: ask Codex to initialise a Git repository, make a first commit, compare changes, and explain the record.
-8. GitHub: connect the local project to GitHub and use the agent to sync or prepare the repository.
-9. Dissemination: ask the agent to build a simple project website or documentation output and publish it with Cloudflare.
-10. Command-line tools and external services: show how Codex can use command-line tools to access external services, including a worked MCP example such as Sketch Engine.
-11. Reproducible analysis: use Codex to write or revise one small data-analysis script, run it, save the outputs, and record the steps taken.
-12. Research planning: discuss where agent-supported reproducibility fits into participants' own research planning, data management, analysis, and dissemination workflows.
+### 13.30-14.15 - Agent Skills
+
+- Create a small skill folder with a required `SKILL.md`.
+- Add a clear trigger description and concise instructions.
+- Keep optional references or scripts only when they make the workflow easier to repeat.
+
+### 14.15-15.00 - Versioning With Git And GitHub
+
+- Ask Codex to initialise a Git repository, make a first commit, compare changes, and explain the record.
+- Connect the local project to GitHub when participants have access.
+- Use the commit history as a reproducibility trace, not just a software-development habit.
+
+### 15.00-15.15 - Break And Checkpoint
+
+- Catch up on setup issues.
+- Pair participants if some machines are behind.
+- Decide whether the room is ready for publishing, external services, or the safer local-only path.
+
+### 15.15-16.00 - Reproducible Analysis And Outputs
+
+- Ask Codex to write or revise one small data-analysis script.
+- Run the script, save the outputs, and record the steps taken.
+- Draft a short report that separates observed results, uncertainties, and human checks.
+
+### 16.00-16.30 - Dissemination, External Services, And Next Steps
+
+- If setup allows, publish a simple documentation output with Cloudflare.
+- If setup allows, show how Codex can use command-line tools or MCP to connect to an external service.
+- If setup is uneven, use this slot as a local-only review of the project trace.
+- Discuss where agent-supported reproducibility fits into participants' own research planning, data management, analysis, and dissemination workflows.
 
 ## 3-Hour Taster Version
 
