@@ -1,0 +1,25 @@
+response_id,wave,group,confidence_pre,confidence_post,free_text
+R007,pilot,intervention,5,5,Not sure which file is final.
+R008,main,unknown,2,6,Useful but I need clearer steps.
+R009,main,control,3,7,The folder was hard to understand.
+R010,main,intervention,4,3,I liked having outputs to inspect.
+R011,main,unknown,5,4,Not sure which file is final.
+R012,main,control,2,5,Useful but I need clearer steps.
+R013,main,intervention,3,6,The folder was hard to understand.
+R014,main,unknown,4,7,I liked having outputs to inspect.
+R015,main,control,5,3,Not sure which file is final.
+R016,main,intervention,2,4,Useful but I need clearer steps.
+R017,main,unknown,3,5,The folder was hard to understand.
+R018,main,control,4,6,I liked having outputs to inspect.
+R019,main,intervention,5,7,Not sure which file is final.
+R020,main,unknown,2,3,Useful but I need clearer steps.
+R021,main,control,3,4,The folder was hard to understand.
+R022,main,intervention,4,5,I liked having outputs to inspect.
+R023,main,unknown,5,6,Not sure which file is final.
+R024,main,control,2,7,Useful but I need clearer steps.
+R025,main,intervention,3,3,The folder was hard to understand.
+R026,main,unknown,4,4,I liked having outputs to inspect.
+R027,main,control,5,5,Not sure which file is final.
+R028,main,intervention,2,6,Useful but I need clearer steps.
+R029,main,unknown,3,7,The folder was hard to understand.
+R030,main,control,4,3,I liked having outputs to inspect.
