@@ -1,0 +1,3 @@
+Interview A notes. The participant described using a local folder, then losing
+        track of which transcript had been cleaned. They wanted the agent to explain
+        its file changes before making them. This is fictional mock content.

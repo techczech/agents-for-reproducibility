@@ -17,7 +17,15 @@ This file records what belongs where as the workshop materials grow.
 ## Participant Materials
 
 - `participant/setup-checklist.md` - what participants should install or prepare.
+- `sample-files/` - downloadable sample folders for hands-on Codex exercises.
 - Future files can include handouts, worksheets, and quick-reference guides.
+
+## Sample Files
+
+- `sample-files/project-management-scenarios/` - project-management fixtures for synthesis, planning, and communication exercises.
+- `sample-files/research-data-for-replication/` - public Palmer penguins CSV files for a small reproducible-analysis exercise.
+- `sample-files/messy-research-archive/` - fictional mixed-format archive for folder inspection and reorganisation exercises.
+- `workshop-sample-files.zip` - downloadable zip containing the sample-file folder.
 
 ## Exercises
 
