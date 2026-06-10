@@ -11,3 +11,4 @@
 | 2026-05-15 | Make Agent Skills a core workshop topic. | Participants should learn how `AGENTS.md` supports one project and how `SKILL.md` packages reusable workflows across projects. |
 | 2026-06-04 | Set the first full-day workshop start time to 9.30. | The planning meeting agreed a later participant start to allow room access, setup buffer, and travel time. |
 | 2026-06-04 | Keep Cloudflare and external-service work as conditional afternoon paths. | GitHub, Cloudflare, MCP, and command-line service setup may vary across participant laptops, so the workshop needs a local-only fallback. |
+| 2026-06-10 | Add a top-level `sample-files/` area and downloadable zip bundle. | Participants need ready-made folders they can download, extract, open in Codex, and use for project-management, data-replication, and messy-archive exercises. |

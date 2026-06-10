@@ -50,6 +50,7 @@ agents-for-reproducibility/
   AGENTS.md                         # Instructions for agentic tools working in this repo
   planning/                         # Workshop design, page copy, concepts, decisions
   participant/                      # Participant-facing setup and materials
+  sample-files/                     # Downloadable sample file bundles
   exercises/                        # Exercises, fictional sample project, website draft
   admin/                            # Operational planning notes
 ```
@@ -59,6 +60,7 @@ agents-for-reproducibility/
 - [Workshop page copy](planning/workshop-page.md)
 - [Session outline](planning/session-outline.md)
 - [Participant setup checklist](participant/setup-checklist.md)
+- [Workshop sample files](sample-files/)
 - [Key concepts](planning/key-concepts.md)
 - [Exercise folder](exercises/)
 - [Agent Skills exercise](exercises/agent-skills/)

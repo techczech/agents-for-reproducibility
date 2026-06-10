@@ -1,0 +1,38 @@
+Maya: Thanks everyone. I want to focus on staff testing, the reporting extract, and whether payments are in or out for the pilot.
+Sara: The service teams are supportive, but they are under pressure. Friday testing will not work.
+Ben: Yes, the inbox backlog spikes every Friday. Tuesday morning or Wednesday after 2 would be better.
+Maya: Sam is not here today, but I will ask him to rebook the sessions. We need five more testers.
+Priya: Is this now a risk to the 17 June go-live?
+Tomas: From supplier side, not yet. The build can continue. But if feedback comes after the accessibility fixes, we may be reworking late.
+Owen: The API field list is the bigger blocker for reporting. I have a draft. I can send it by close tomorrow.
+Tomas: If we get it tomorrow, we can produce a first dashboard sample by next Thursday.
+Priya: Good. I want that commitment written down.
+Leila: On data protection, I have reviewed the DPIA. The main issue is retention. "Business need" is not acceptable.
+Maya: What wording do you need?
+Leila: Twelve months for incomplete requests, six years for completed booking records if finance confirms that is needed for audit. If payments are excluded, we may not need the six-year period.
+Priya: That brings us to payments. My instinct is to keep them out of the pilot unless there is a legal or operational reason to include them.
+Sara: I agree. The teams mostly need triage and booking, not payment.
+Ben: Payments would also complicate staff guidance. They already have three separate payment routes.
+Tomas: Technically it is a different integration. We would need finance testing and reconciliation rules.
+Maya: So can we record a decision that payments are out of scope for pilot one?
+Priya: Yes. Out for pilot one, but record as a future option.
+Owen: That helps reporting too. I will remove payment fields from the first dashboard scope.
+Leila: And I can simplify the DPIA wording on retention.
+Maya: Dashboard reporting. What is acceptable for go-live?
+Sara: For the service owner, I need volume, request type, team assigned, open versus closed, and average age of open requests.
+Ben: Staff would like a daily list of older requests too.
+Tomas: The daily list is possible, but not in the dashboard by next week. It could be a CSV export.
+Priya: Minimum for go-live is the service owner view. Daily list can be a stretch item if it does not move the date.
+Maya: Decision: minimum dashboard fields are volume, request type, team assigned, open versus closed, and average age. Daily older-request list is stretch.
+Priya: Correct.
+Maya: Any other blockers?
+Owen: Labels. The two pilot teams use different phrases for appointment type. We need one set for the form and mapping behind it.
+Sara: I can get the team leads to agree labels by Monday if Maya sends the options.
+Maya: I will send options today.
+Leila: Please include privacy text in that review. Some labels imply medical detail.
+Maya: Noted. I will include Leila in the review.
+Priya: I need a short sponsor update by Friday noon. No more than one page.
+Maya: I will send it.
+Tomas: One more point. Accessibility fixes are in progress. Keyboard focus should be fixed Friday. Heading order is small.
+Maya: Good. We will close there.
+

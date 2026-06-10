@@ -1,0 +1,10 @@
+id,task,owner,due_date,status,notes
+T-101,Confirm pilot service labels,Maya,2026-05-12,In progress,Needs input from both pilot teams
+T-102,Send API field list for reporting extract,Owen,2026-05-09,Overdue,Supplier blocked until received
+T-103,Update DPIA retention wording,Leila,2026-05-13,Not started,Use named retention period
+T-104,Fix keyboard focus on booking form,Supplier,2026-05-15,In progress,Accessibility issue
+T-105,Draft training pack outline,Sam,2026-05-16,Not started,At risk due to UAT work
+T-106,Recruit remaining staff testers,Sam,2026-05-10,Overdue,Only 3 of 8 confirmed
+T-107,Prepare sponsor decision note on payments,Maya,2026-05-14,Not started,Recommendation likely exclude from pilot
+T-108,Add duplicate-booking examples to benefits log,Owen,2026-05-12,Not started,Evidence for change story
+

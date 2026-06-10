@@ -1,0 +1,8 @@
+risk_id,risk,probability_1_5,impact_1_5,owner,status
+R-01,Staff testing does not recruit enough representative users,4,4,Sam,Open
+R-02,Reporting extract unavailable for pilot go-live,3,4,Owen,Open
+R-03,Payments integration delays pilot,3,5,Maya,Open
+R-04,DPIA wording delays wider testing,3,4,Leila,Open
+R-05,Accessibility defects block launch,2,5,Tomas,Open
+R-06,Training materials incomplete before go-live,3,3,Sam,Open
+

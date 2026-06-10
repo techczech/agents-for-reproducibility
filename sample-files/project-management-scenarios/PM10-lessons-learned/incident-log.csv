@@ -1,0 +1,7 @@
+date,type,description,impact,resolution
+2026-05-09,Schedule,Staff tester recruitment behind plan,Compressed UAT window,Rebooked to Tuesday and Wednesday slots
+2026-05-12,Dependency,API field list delayed,Supplier dashboard sample delayed by two days,BA sent reduced field list
+2026-05-14,Scope,Payments question reopened,Board time diverted to scope discussion,Decision recorded to exclude from pilot one
+2026-05-17,Quality,Keyboard focus defect found,Accessibility sign-off at risk,Supplier fixed before wider testing
+2026-05-23,Training,Training pack incomplete,Pilot staff onboarding rushed,Added quick-reference guide
+
