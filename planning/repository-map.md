@@ -23,6 +23,7 @@ This file records what belongs where as the workshop materials grow.
 ## Sample Files
 
 - `sample-files/project-management-scenarios/` - project-management fixtures for synthesis, planning, and communication exercises.
+- `sample-files/project-management-sample-project/` - sample agent-ready project built around a fictional change-request impact review.
 - `sample-files/research-data-for-replication/` - public Palmer penguins CSV files for a small reproducible-analysis exercise.
 - `sample-files/messy-research-archive/` - fictional mixed-format archive for folder inspection and reorganisation exercises.
 - `workshop-sample-files.zip` - downloadable zip containing the sample-file folder.
@@ -32,7 +33,6 @@ This file records what belongs where as the workshop materials grow.
 - `exercises/codex-explorer/` - exercise for inspecting how Codex completed a task.
 - `exercises/agent-skills/` - exercise for creating a small Agent Skill with `SKILL.md`.
 - `exercises/external-services/` - exercise for command-line or MCP service integration.
-- `exercises/project-management-sample-project/` - sample agent-ready project built around a fictional change-request impact review.
 - `exercises/reproducible-analysis/` - exercise for simple analysis with scripts, inputs, outputs, and run notes.
 - `exercises/sample-project/` - fictional research project used during hands-on work.
 - `exercises/website/` - static website draft and publishing exercise.
