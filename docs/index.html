@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Using AI Agents for Reproducible Research</title>
+    <meta name="description" content="Activity guide for Using AI Agents for Reproducible Research.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23002047'/%3E%3Cpath d='M16 19h32v26H16z' fill='%23fffaf0'/%3E%3Cpath d='M22 27h20M22 34h14' stroke='%23002047' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='47' cy='45' r='7' fill='%23b31b34'/%3E%3C/svg%3E">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">AI Agents for Reproducible Research</a>
+      <nav aria-label="Activity navigation">
+        <a href="#getting-started">Getting Started</a>
+<a href="#activity-1-getting-ready">Activity 1: Getting Ready</a>
+<a href="#activity-2-how-agents-work">Activity 2: How Agents Work</a>
+<a href="#activity-3-first-agent-task">Activity 3: First Agent Task</a>
+<a href="#activity-4-debrief-permissions">Activity 4: Debrief Permissions</a>
+<a href="#activity-5-project-instructions-with-agents-md">Activity 5: Project Instructions With AGENTS.md</a>
+<a href="#activity-6-from-agents-md-to-skill-md">Activity 6: From AGENTS.md To SKILL.md</a>
+<a href="#activity-7-git-and-github">Activity 7: Git And GitHub</a>
+<a href="#activity-8-working-with-data">Activity 8: Working With Data</a>
+<a href="#activity-9-cloudflare-publishing">Activity 9: Cloudflare Publishing</a>
+<a href="#activity-10-safety-cost-and-next-steps">Activity 10: Safety, Cost, And Next Steps</a>
+<a href="#extended-and-backup-activities">Extended And Backup Activities</a>
+      </nav>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="deck-source">Activity guide and workshop links</p>
+          <h1>Using AI Agents for Reproducible Research</h1>
+          <p>Follow the workshop sequence, download the sample files, and copy the prompts you need for Codex.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/techczech/agents-for-reproducibility/raw/main/workshop-sample-files.zip">Download sample files</a>
+            <a class="button secondary" href="https://dominiks-handouts.pages.dev/oa8c">Open public handout</a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/research-workflow.png" alt="Illustration of a research workflow with files and outputs.">
+        </figure>
+      </section>
+      <section class="guide-shell">
+        <aside class="side-nav" aria-label="Page sections">
+          <p>Activities</p>
+          <a href="#getting-started">Getting Started</a>
+<a href="#activity-1-getting-ready">Activity 1: Getting Ready</a>
+<a href="#activity-2-how-agents-work">Activity 2: How Agents Work</a>
+<a href="#activity-3-first-agent-task">Activity 3: First Agent Task</a>
+<a href="#activity-4-debrief-permissions">Activity 4: Debrief Permissions</a>
+<a href="#activity-5-project-instructions-with-agents-md">Activity 5: Project Instructions With AGENTS.md</a>
+<a href="#activity-6-from-agents-md-to-skill-md">Activity 6: From AGENTS.md To SKILL.md</a>
+<a href="#activity-7-git-and-github">Activity 7: Git And GitHub</a>
+<a href="#activity-8-working-with-data">Activity 8: Working With Data</a>
+<a href="#activity-9-cloudflare-publishing">Activity 9: Cloudflare Publishing</a>
+<a href="#activity-10-safety-cost-and-next-steps">Activity 10: Safety, Cost, And Next Steps</a>
+<a href="#extended-and-backup-activities">Extended And Backup Activities</a>
+        </aside>
+        <div class="activity-flow">
+          <p>This page is the practical activity guide for the workshop. It follows the slide sequence and gathers the links, folders, prompts, and checks participants need during the day.</p>
+<p>Start here if you are in the room and need the shortest route through the activities.</p>
+<section id="getting-started" class="activity-card resource-card">
+<h2>Getting Started</h2>
+<p>Use these links first.</p>
+<ul>
+<li>Public handout page: <a href="https://dominiks-handouts.pages.dev/oa8c">dominiks-handouts.pages.dev/oa8c</a></li>
+<li>Repository: <a href="https://github.com/techczech/agents-for-reproducibility">github.com/techczech/agents-for-reproducibility</a></li>
+<li>Download sample files: <a href="https://github.com/techczech/agents-for-reproducibility/raw/main/workshop-sample-files.zip">workshop-sample-files.zip</a></li>
+<li>Codex access check: <a href="https://bit.ly/ox-codex-access">bit.ly/ox-codex-access</a></li>
+<li>Participant setup checklist: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/participant/setup-checklist.md">participant/setup-checklist.md</a></li>
+</ul>
+<p>Copy this if you are asking Codex to orient itself after opening a sample folder:</p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Inspect this folder before making changes. Tell me what files are here, what they appear to contain, what you should not edit, and what you recommend doing first.</code></pre>
+</div>
+</section>
+<section id="activity-1-getting-ready" class="activity-card">
+<h2>Activity 1: Getting Ready</h2>
+<p class="meta-line"><strong>Time:</strong> 9:30-10:00</p>
+<p>Goal: confirm that everyone can open Codex, find the sample files, and work in a safe folder.</p>
+<p class="meta-line"><strong>Links:</strong></p>
+<ul>
+<li>Setup checklist: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/participant/setup-checklist.md">participant/setup-checklist.md</a></li>
+<li>Sample files overview: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/sample-files/README.md">sample-files/README.md</a></li>
+<li>Zip download: <a href="https://github.com/techczech/agents-for-reproducibility/raw/main/workshop-sample-files.zip">workshop-sample-files.zip</a></li>
+</ul>
+<p class="meta-line"><strong>Checklist:</strong></p>
+<ul>
+<li>Open Codex.</li>
+<li>Download or extract the sample files.</li>
+<li>Use only fictional workshop material.</li>
+<li>Do not add real participant data, restricted research data, API keys, or private account information.</li>
+</ul>
+</section>
+<section id="activity-2-how-agents-work" class="activity-card">
+<h2>Activity 2: How Agents Work</h2>
+<p class="meta-line"><strong>Time:</strong> 10:00-11:00</p>
+<p>Goal: understand the difference between a chatbot and an agent before asking Codex to work on files.</p>
+<p class="meta-line"><strong>Key ideas:</strong></p>
+<ul>
+<li>A chatbot mostly responds to prompts and uploaded context.</li>
+<li>An agent can work in a loop with tools, files, commands, permissions, and feedback.</li>
+<li>Codex works in a local folder and can inspect or change files inside its sandbox.</li>
+<li>The chat is not the archive. Save sources, notes, instructions, scripts, outputs, and decisions into files.</li>
+</ul>
+<p class="meta-line"><strong>Keep this question in mind:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">What did the model infer, what did it actually inspect, and what did the computer do?</code></pre>
+</div>
+</section>
+<section id="activity-3-first-agent-task" class="activity-card">
+<h2>Activity 3: First Agent Task</h2>
+<p class="meta-line"><strong>Time:</strong> 11:00-11:15</p>
+<p class="meta-line"><strong>Folder:</strong> <code>sample-files/messy-research-archive/</code></p>
+<p>Goal: use Codex to inspect a messy folder without immediately changing it.</p>
+<p>Detailed handout: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/participant/first-agent-task-messy-folder.md">participant/first-agent-task-messy-folder.md</a></p>
+<p class="meta-line"><strong>Copy this prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Inspect this folder and tell me what is in it. Group the files into likely categories, flag duplicates or confusing names, and suggest a safer folder structure. Do not move, rename, or edit files yet.</code></pre>
+</div>
+<p class="meta-line"><strong>Check:</strong></p>
+<ul>
+<li>Did Codex read files before making claims?</li>
+<li>Did it separate evidence from guesses?</li>
+<li>Did it propose changes before making them?</li>
+<li>Which permissions did you approve?</li>
+</ul>
+</section>
+<section id="activity-4-debrief-permissions" class="activity-card">
+<h2>Activity 4: Debrief Permissions</h2>
+<p class="meta-line"><strong>Time:</strong> 11:15-11:30</p>
+<p>Goal: review what happened in the first task and connect it to reproducible work.</p>
+<p class="meta-line"><strong>Copy this follow-up prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">What did you inspect, what did you infer, and what would you change only after human approval?</code></pre>
+</div>
+<p class="meta-line"><strong>Discuss:</strong></p>
+<ul>
+<li>Which folder did Codex have access to?</li>
+<li>What did it do well?</li>
+<li>What did it assume?</li>
+<li>What should a researcher check before accepting its plan?</li>
+<li>What would have been risky in a real research folder?</li>
+</ul>
+</section>
+<section id="activity-5-project-instructions-with-agents-md" class="activity-card">
+<h2>Activity 5: Project Instructions With AGENTS.md</h2>
+<p class="meta-line"><strong>Time:</strong> 11:30-12:30</p>
+<p class="meta-line"><strong>Folder:</strong> <code>sample-files/project-management-sample-project/</code></p>
+<p>Goal: see how project instructions change what the agent does.</p>
+<p>Detailed handout: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/participant/project-management-agents-exploration.md">participant/project-management-agents-exploration.md</a></p>
+<p class="meta-line"><strong>Inspect these files and folders:</strong></p>
+<ul>
+<li><code>AGENTS.md</code></li>
+<li><code>CLAUDE.md</code></li>
+<li><code>_TASK-LOG/</code></li>
+<li><code>_CHANGELOG/</code></li>
+<li><code>_AGENT-INSTRUCTIONS/</code></li>
+<li><code>source-material/</code></li>
+<li><code>outputs/</code></li>
+<li><code>notes/</code></li>
+</ul>
+<p class="meta-line"><strong>Copy this prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Read the project instructions and source material in this folder. Create an HTML project-status report in outputs/ that explains the current change request, the available evidence, the main risks, the missing information, and the recommended next decision. Do not invent facts that are not in the source material.</code></pre>
+</div>
+<p class="meta-line"><strong>Afterwards, ask:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Which project instructions affected your work?</code></pre>
+</div>
+</section>
+<section id="activity-6-from-agents-md-to-skill-md" class="activity-card">
+<h2>Activity 6: From AGENTS.md To SKILL.md</h2>
+<p class="meta-line"><strong>Time:</strong> 12:00-14:15</p>
+<p>Goal: distinguish project instructions from reusable skills.</p>
+<p class="meta-line"><strong>Links:</strong></p>
+<ul>
+<li>AGENTS.md site: <a href="https://agents.md/">agents.md</a></li>
+<li>Agent Skills overview: <a href="https://agentskills.io">AgentSkills.io</a></li>
+<li>Agent Skills exercise: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/exercises/agent-skills/README.md">exercises/agent-skills/README.md</a></li>
+<li>Public skill examples: <a href="https://github.com/anthropics/skills">anthropics/skills</a></li>
+<li>Public skill examples: <a href="https://github.com/mattpocock/skills">mattpocock/skills</a></li>
+<li>Dominik&#x27;s public skills catalogue: <a href="https://github.com/techczech/dominiks-agent-skills">techczech/dominiks-agent-skills</a></li>
+</ul>
+<p class="meta-line"><strong>Copy this prompt when you want Codex to propose a small skill:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Suggest one small Agent Skill that would help with a repeated research task in this folder. The skill should be narrow, source-grounded, and useful across more than one project. Do not create files yet; first explain the trigger and the workflow.</code></pre>
+</div>
+</section>
+<section id="activity-7-git-and-github" class="activity-card">
+<h2>Activity 7: Git And GitHub</h2>
+<p class="meta-line"><strong>Time:</strong> 14:15-15:00</p>
+<p>Goal: use Git as a visible project-history layer. GitHub is optional.</p>
+<p>Detailed handout: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/participant/git-github-exercise.md">participant/git-github-exercise.md</a></p>
+<p class="meta-line"><strong>Copy this prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Initialise Git in this sample project, show me the current status, make a first commit, and explain what has been saved. Before committing, show me what files will be included.</code></pre>
+</div>
+<p class="meta-line"><strong>Commands you may see:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-bash">git init
+git status --short
+git diff --check
+git add .
+git commit -m &quot;Initial project record&quot;
+git log --oneline -3</code></pre>
+</div>
+<p class="meta-line"><strong>Optional GitHub prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Check whether GitHub CLI is available and authenticated. If it is, create a private GitHub repository for this workshop project and push the first commit. If it is not, explain the local-only fallback.</code></pre>
+</div>
+</section>
+<section id="activity-8-working-with-data" class="activity-card">
+<h2>Activity 8: Working With Data</h2>
+<p class="meta-line"><strong>Time:</strong> 15:15-16:00</p>
+<p class="meta-line"><strong>Folder:</strong> <code>sample-files/research-data-for-replication/</code></p>
+<p>Goal: set up a small reproducible analysis with source data, instructions, code, outputs, and assumptions.</p>
+<p class="meta-line"><strong>Links:</strong></p>
+<ul>
+<li>Data folder README: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/sample-files/research-data-for-replication/README.md">sample-files/research-data-for-replication/README.md</a></li>
+<li>Reproducible analysis exercise: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/exercises/reproducible-analysis/README.md">exercises/reproducible-analysis/README.md</a></li>
+</ul>
+<p class="meta-line"><strong>Copy this prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Inspect these CSV files, create a short data inventory, identify key variables and missing values, and propose one simple analysis that can be reproduced from the raw files. Save any code, outputs, and assumptions in separate files.</code></pre>
+</div>
+<p class="meta-line"><strong>Check:</strong></p>
+<ul>
+<li>Are inputs preserved?</li>
+<li>Is there a script?</li>
+<li>Are outputs saved separately?</li>
+<li>Are assumptions and uncertainties recorded?</li>
+<li>Can another person inspect what happened?</li>
+</ul>
+</section>
+<section id="activity-9-cloudflare-publishing" class="activity-card">
+<h2>Activity 9: Cloudflare Publishing</h2>
+<p class="meta-line"><strong>Time:</strong> 16:00-16:30, optional</p>
+<p>Goal: publish a reviewed static output, not raw source material.</p>
+<p>Detailed handout: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/participant/cloudflare-publishing-exercise.md">participant/cloudflare-publishing-exercise.md</a></p>
+<p class="meta-line"><strong>Copy this prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Create a simple static documentation page from this sample project and save it in an output folder. Then explain which files would be published and which source files you used.</code></pre>
+</div>
+<p class="meta-line"><strong>If Cloudflare and Wrangler are ready, use:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Check whether Wrangler is available and whether Cloudflare authentication works. If it does, deploy the static output folder to a Cloudflare Pages test project. If it does not, keep the output local and record what would be needed.</code></pre>
+</div>
+<p class="meta-line"><strong>Do not publish:</strong></p>
+<ul>
+<li>raw source material by accident,</li>
+<li>real participant data,</li>
+<li>sensitive research data,</li>
+<li>API keys or account details.</li>
+</ul>
+</section>
+<section id="activity-10-safety-cost-and-next-steps" class="activity-card">
+<h2>Activity 10: Safety, Cost, And Next Steps</h2>
+<p class="meta-line"><strong>Time:</strong> 16:00-16:30</p>
+<p>Goal: connect the day back to real research practice.</p>
+<p class="meta-line"><strong>Questions:</strong></p>
+<ul>
+<li>What work is safe to do with fictional or public data?</li>
+<li>What would require ethics, data protection, or local policy review?</li>
+<li>What should stay local?</li>
+<li>What costs matter: money, time, attention, review effort, and risk?</li>
+<li>Which part of your own research workflow would benefit from agent support first?</li>
+</ul>
+<p class="meta-line"><strong>Copy this reflection prompt:</strong></p>
+<div class="copy-block">
+<button type="button" class="copy-button">Copy</button>
+<pre><code class="language-text">Based on what we did today, help me identify one low-risk research workflow where an agent could help. Include what files I would prepare, what instructions I would write, what outputs I would save, and what a human would still need to review.</code></pre>
+</div>
+</section>
+<section id="extended-and-backup-activities" class="activity-card resource-card">
+<h2>Extended And Backup Activities</h2>
+<p>Use these if setup varies across the room or you want more practice.</p>
+<ul>
+<li>Extended sample-project route: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/exercises/sample-project/participant-tasks.md">exercises/sample-project/participant-tasks.md</a></li>
+<li>External services exercise: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/exercises/external-services/README.md">exercises/external-services/README.md</a></li>
+<li>Static website draft: <a href="https://github.com/techczech/agents-for-reproducibility/blob/main/exercises/website/README.md">exercises/website/README.md</a></li>
+</ul>
+</section>
+        </div>
+      </section>
+    </main>
+    <script>
+      document.querySelectorAll('.copy-block').forEach((block) => {
+        const button = block.querySelector('.copy-button');
+        const code = block.querySelector('code');
+        button.addEventListener('click', async () => {
+          await navigator.clipboard.writeText(code.innerText);
+          button.textContent = 'Copied';
+          setTimeout(() => button.textContent = 'Copy', 1500);
+        });
+      });
+    </script>
+  </body>
+</html>

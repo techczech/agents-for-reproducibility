@@ -19,6 +19,8 @@ This repository contains planning notes, participant materials, exercises, and a
 - `README.md` is the repository entry point.
 - `planning/` holds workshop design notes, page copy, session outlines, decisions, and repository structure.
 - `participant/` holds participant-facing setup and workshop materials.
+- `docs/page-source/` holds Markdown source for the GitHub Pages activity guide.
+- `docs/index.html` is generated from `docs/page-source/activities.md` by `tools/build-github-pages.py`.
 - `exercises/` holds workshop activities, the fictional sample project, and the static website draft.
 - `admin/` holds operational notes that are not participant-facing.
 
@@ -27,5 +29,5 @@ This repository contains planning notes, participant materials, exercises, and a
 - Prefer Markdown for planning and participant materials.
 - Keep file names lowercase and hyphenated.
 - Record workshop design decisions in `planning/decision-log.md`.
-- Do not hand-edit generated website output once a generator exists; update the source instead.
+- Do not hand-edit generated website output once a generator exists; update the source and rerun the generator instead.
 - Before committing, run `git status --short` and `git diff --check`.
