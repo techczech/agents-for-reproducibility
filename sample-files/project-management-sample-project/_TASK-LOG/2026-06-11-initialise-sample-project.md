@@ -11,9 +11,9 @@ audit:
   agent: codex-desktop
   thread_uri:
   machine: Macek-Stodvacet.local
-  cwd: /Users/dominiklukes/gitrepos/15_training-presentations/agents-for-reproducibility/exercises/project-management-sample-project
+  cwd: /Users/dominiklukes/gitrepos/15_training-presentations/agents-for-reproducibility/sample-files/project-management-sample-project
 scope:
-  - exercises/project-management-sample-project
+  - sample-files/project-management-sample-project
 source_inputs:
   - sample-files/project-management-scenarios/PM9-change-request-impact
 content_refs:
