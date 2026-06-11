@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Workshop workflow summary</title>
+  <desc id="desc">A visual summary showing sample files, Codex, project instructions, Git history, and published outputs.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#edf3ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="128%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b1f3a" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8c1d40"/>
+    </marker>
+    <style>
+      .label { font: 700 25px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #062047; }
+      .small { font: 600 16px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #35506d; }
+      .tiny { font: 700 13px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #8c1d40; letter-spacing: 0.08em; }
+      .code { font: 700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #0b1f3a; }
+      .card { fill: #ffffff; stroke: #d7e0dc; stroke-width: 2; }
+      .accent { fill: #8c1d40; }
+      .blue { fill: #062047; }
+      .mint { fill: #bdd8ce; }
+      .line { stroke: #8c1d40; stroke-width: 5; fill: none; marker-end: url(#arrow); stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="920" height="520" rx="28" fill="url(#paper)"/>
+  <path d="M0 78 C150 34 260 32 400 70 C575 118 720 105 920 42 L920 0 L0 0 Z" fill="#062047" opacity="0.06"/>
+  <path d="M0 480 C155 428 282 422 438 460 C610 502 758 494 920 444 L920 520 L0 520 Z" fill="#8c1d40" opacity="0.08"/>
+
+  <text x="52" y="66" class="tiny">USING AI AGENTS FOR REPRODUCIBLE RESEARCH</text>
+  <text x="52" y="108" class="label">From folder to shareable output</text>
+  <text x="52" y="136" class="small">Document, version, review, and publish the work.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="58" y="194" width="178" height="178" rx="18" class="card"/>
+    <rect x="84" y="226" width="72" height="92" rx="8" fill="#edf3ef" stroke="#bdd8ce" stroke-width="2"/>
+    <path d="M156 226 L186 256 L156 256 Z" fill="#bdd8ce"/>
+    <rect x="102" y="336" width="86" height="10" rx="5" class="mint"/>
+    <rect x="96" y="249" width="46" height="8" rx="4" class="blue" opacity="0.85"/>
+    <rect x="96" y="270" width="76" height="8" rx="4" fill="#6d7f8f"/>
+    <rect x="96" y="291" width="58" height="8" rx="4" fill="#6d7f8f"/>
+    <text x="84" y="401" class="code">sample-files/</text>
+    <text x="76" y="424" class="small">fictional materials</text>
+  </g>
+
+  <path class="line" d="M248 282 C284 258 306 258 338 282"/>
+
+  <g filter="url(#shadow)">
+    <rect x="350" y="172" width="220" height="220" rx="28" fill="#062047"/>
+    <circle cx="460" cy="250" r="52" fill="#bdd8ce"/>
+    <path d="M433 250 C446 223 475 223 488 250 C475 277 446 277 433 250 Z" fill="#ffffff"/>
+    <circle cx="460" cy="250" r="13" class="accent"/>
+    <rect x="394" y="318" width="132" height="16" rx="8" fill="#ffffff" opacity="0.92"/>
+    <rect x="414" y="347" width="92" height="12" rx="6" fill="#bdd8ce"/>
+    <text x="396" y="424" class="code" fill="#062047">Codex agent</text>
+    <text x="388" y="447" class="small">inspect, plan, act</text>
+  </g>
+
+  <path class="line" d="M582 282 C628 247 657 250 698 282"/>
+
+  <g filter="url(#shadow)">
+    <rect x="708" y="194" width="154" height="178" rx="18" class="card"/>
+    <rect x="734" y="224" width="102" height="30" rx="8" fill="#edf3ef"/>
+    <text x="748" y="244" class="code">AGENTS.md</text>
+    <rect x="734" y="272" width="102" height="30" rx="8" fill="#edf3ef"/>
+    <text x="751" y="292" class="code">SKILL.md</text>
+    <rect x="734" y="320" width="102" height="30" rx="8" fill="#edf3ef"/>
+    <text x="752" y="340" class="code">TASK.md</text>
+    <text x="722" y="401" class="code">instructions</text>
+    <text x="722" y="424" class="small">reusable practice</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="600" y="48" width="126" height="82" rx="16" fill="#ffffff" stroke="#bdd8ce" stroke-width="2"/>
+    <circle cx="630" cy="87" r="11" class="accent"/>
+    <circle cx="662" cy="87" r="11" class="blue"/>
+    <circle cx="694" cy="87" r="11" class="mint"/>
+    <text x="620" y="117" class="small">Git history</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="748" y="48" width="142" height="82" rx="16" fill="#ffffff" stroke="#bdd8ce" stroke-width="2"/>
+    <rect x="772" y="72" width="94" height="16" rx="8" class="blue"/>
+    <rect x="772" y="100" width="72" height="10" rx="5" class="accent"/>
+    <text x="772" y="126" class="small">Pages output</text>
+  </g>
+
+  <path d="M726 89 C734 84 740 84 748 89" stroke="#8c1d40" stroke-width="4" fill="none" marker-end="url(#arrow)" stroke-linecap="round"/>
+  <path d="M516 178 C540 144 572 122 604 110" stroke="#8c1d40" stroke-width="4" fill="none" marker-end="url(#arrow)" stroke-linecap="round" opacity="0.75"/>
+  <path d="M544 196 C610 150 682 126 748 109" stroke="#8c1d40" stroke-width="4" fill="none" marker-end="url(#arrow)" stroke-linecap="round" opacity="0.75"/>
+</svg>
