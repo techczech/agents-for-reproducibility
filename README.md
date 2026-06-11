@@ -1,5 +1,28 @@
 # Using AI Agents for Reproducible Research
 
+<table>
+  <tr>
+    <td width="58%" valign="middle">
+      <h2>Start With The Activity Guide</h2>
+      <p>
+        Use the public guide during the workshop for the activity sequence, setup links, direct sample-file download, and copyable Codex prompts.
+      </p>
+      <p>
+        <strong><a href="https://techczech.github.io/agents-for-reproducibility/">Open the workshop activity guide</a></strong>
+      </p>
+      <p>
+        Quick links:
+        <a href="https://dominiks-handouts.pages.dev/oa8c">public handout</a> |
+        <a href="https://github.com/techczech/agents-for-reproducibility/raw/main/workshop-sample-files.zip">download sample files</a> |
+        <a href="docs/page-source/activities.md">activity-guide source</a>
+      </p>
+    </td>
+    <td width="42%" valign="middle">
+      <img src="docs/assets/readme-workshop-summary.svg" alt="Workshop workflow summary: sample files, Codex, project instructions, Git history, and published outputs.">
+    </td>
+  </tr>
+</table>
+
 This repository contains the workshop materials, planning notes, participant setup, exercises, fictional sample project, and GitHub Pages activity guide for **Using AI Agents for Reproducible Research**.
 
 The workshop introduces AI agents as practical tools for making research work easier to inspect, repeat, document, and share. Codex is the main example because it can work with ordinary project folders, files, commands, Git, GitHub, publishing tools, reusable project instructions, and Agent Skills.

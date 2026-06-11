@@ -9,6 +9,7 @@ This file records what belongs where as the workshop materials grow.
 - `docs/page-source/activities.md` - Markdown source for the GitHub Pages activity guide.
 - `docs/index.html` - generated GitHub Pages activity guide.
 - `docs/styles.css` - styles for the generated GitHub Pages activity guide.
+- `docs/assets/readme-workshop-summary.svg` - README hero graphic summarising the workshop workflow.
 
 ## Planning Materials
 
