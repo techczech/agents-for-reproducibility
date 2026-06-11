@@ -11,12 +11,15 @@ This file records what belongs where as the workshop materials grow.
 
 - `planning/session-outline.md` - current workshop structure.
 - `planning/key-concepts.md` - concepts to teach or refer to.
+- `planning/cli-workflow-exercise-plan.md` - survey and recommended exercise ladder for Git, GitHub, sample packaging, and Cloudflare publishing.
 - `planning/decision-log.md` - durable design decisions.
 - `planning/repository-map.md` - this file.
 
 ## Participant Materials
 
 - `participant/setup-checklist.md` - what participants should install or prepare.
+- `participant/git-github-exercise.md` - participant-facing Git and optional GitHub workflow.
+- `participant/cloudflare-publishing-exercise.md` - participant-facing static-output and optional Cloudflare Pages workflow.
 - `sample-files/` - downloadable sample folders for hands-on Codex exercises.
 - Future files can include handouts, worksheets, and quick-reference guides.
 

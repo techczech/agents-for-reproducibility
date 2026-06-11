@@ -45,9 +45,13 @@ The skill should use a `SKILL.md` file with:
 
 Ask Codex to initialise a Git repository, make a first commit, and explain what has been saved. If GitHub access is available, ask Codex to prepare or carry out the GitHub sync.
 
+See `participant/git-github-exercise.md` for the guided version.
+
 ## 7. Publish a Simple Output
 
 Ask Codex to create a simple documentation page or website from the project materials. If Cloudflare access is available, ask Codex to prepare the project for publication through Cloudflare.
+
+See `participant/cloudflare-publishing-exercise.md` for the guided version.
 
 ## 8. Try an External-Service Workflow
 

@@ -60,6 +60,8 @@ agents-for-reproducibility/
 - [Workshop page copy](planning/workshop-page.md)
 - [Session outline](planning/session-outline.md)
 - [Participant setup checklist](participant/setup-checklist.md)
+- [Git and GitHub exercise](participant/git-github-exercise.md)
+- [Cloudflare publishing exercise](participant/cloudflare-publishing-exercise.md)
 - [Workshop sample files](sample-files/)
 - [Key concepts](planning/key-concepts.md)
 - [Exercise folder](exercises/)
