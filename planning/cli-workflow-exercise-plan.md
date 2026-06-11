@@ -178,7 +178,7 @@ Placement: `participant/cloudflare-publishing-exercise.md`.
 
 ## Suggested Integration With Existing Materials
 
-- Expand `exercises/sample-project/participant-tasks.md` tasks 6 and 7 with links to the two handouts.
+- Keep `participant/git-github-exercise.md` and `participant/cloudflare-publishing-exercise.md` as the guided handouts for the CLI and publishing slots.
 - Keep `participant/setup-checklist.md` as a setup checklist, not a command tutorial.
 - Keep `exercises/website/` as the simple static publishing target.
 - Use `sample-files/project-management-sample-project/` as an advanced demonstration of richer project scaffolding, not the first Git exercise.

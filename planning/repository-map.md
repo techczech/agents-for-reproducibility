@@ -18,6 +18,8 @@ This file records what belongs where as the workshop materials grow.
 ## Participant Materials
 
 - `participant/setup-checklist.md` - what participants should install or prepare.
+- `participant/first-agent-task-messy-folder.md` - first hands-on Codex task using `sample-files/messy-research-archive/`.
+- `participant/project-management-agents-exploration.md` - guided exploration of `AGENTS.md`, task logs, changelog, and outputs in the project-management sample.
 - `participant/git-github-exercise.md` - participant-facing Git and optional GitHub workflow.
 - `participant/cloudflare-publishing-exercise.md` - participant-facing static-output and optional Cloudflare Pages workflow.
 - `sample-files/` - downloadable sample folders for hands-on Codex exercises.
@@ -33,11 +35,11 @@ This file records what belongs where as the workshop materials grow.
 
 ## Exercises
 
-- `exercises/codex-explorer/` - exercise for inspecting how Codex completed a task.
+- `exercises/codex-explorer/` - parked scaffold for a possible future agent-trace inspection exercise.
 - `exercises/agent-skills/` - exercise for creating a small Agent Skill with `SKILL.md`.
 - `exercises/external-services/` - exercise for command-line or MCP service integration.
 - `exercises/reproducible-analysis/` - exercise for simple analysis with scripts, inputs, outputs, and run notes.
-- `exercises/sample-project/` - fictional research project used during hands-on work.
+- `exercises/sample-project/` - extended fictional research-project route for extra practice or local-only fallback.
 - `exercises/website/` - static website draft and publishing exercise.
 
 ## Admin
