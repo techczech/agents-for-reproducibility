@@ -1,6 +1,6 @@
 # Using AI Agents for Reproducible Research
 
-This repository contains the workshop materials, planning notes, participant setup, exercises, fictional sample project, and website draft for **Using AI Agents for Reproducible Research**.
+This repository contains the workshop materials, planning notes, participant setup, exercises, fictional sample project, and GitHub Pages activity guide for **Using AI Agents for Reproducible Research**.
 
 The workshop introduces AI agents as practical tools for making research work easier to inspect, repeat, document, and share. Codex is the main example because it can work with ordinary project folders, files, commands, Git, GitHub, publishing tools, reusable project instructions, and Agent Skills.
 
@@ -30,7 +30,11 @@ The first version is planned as a full-day, in-person workshop. The day gives pa
 
 See [planning/session-outline.md](planning/session-outline.md) for the current structure.
 
+Workshop activity guide: [techczech.github.io/agents-for-reproducibility](https://techczech.github.io/agents-for-reproducibility/).
+
 Public handout page: [dominiks-handouts.pages.dev/oa8c](https://dominiks-handouts.pages.dev/oa8c).
+
+Direct sample-file download: [workshop-sample-files.zip](https://github.com/techczech/agents-for-reproducibility/raw/main/workshop-sample-files.zip).
 
 ## About the Facilitator
 
@@ -52,6 +56,7 @@ agents-for-reproducibility/
   AGENTS.md                         # Instructions for agentic tools working in this repo
   planning/                         # Workshop design, page copy, concepts, decisions
   participant/                      # Participant-facing setup and materials
+  docs/                             # GitHub Pages activity guide and generated site files
   sample-files/                     # Downloadable sample file bundles
   exercises/                        # Exercises, fictional sample project, website draft
   admin/                            # Operational planning notes
@@ -60,7 +65,10 @@ agents-for-reproducibility/
 ## Core Materials
 
 - [Workshop page copy](planning/workshop-page.md)
+- [GitHub Pages activity guide](https://techczech.github.io/agents-for-reproducibility/)
+- [Activity guide Markdown source](docs/page-source/activities.md)
 - [Public handout page](https://dominiks-handouts.pages.dev/oa8c)
+- [Direct sample-file download](https://github.com/techczech/agents-for-reproducibility/raw/main/workshop-sample-files.zip)
 - [Session outline](planning/session-outline.md)
 - [Participant setup checklist](participant/setup-checklist.md)
 - [First agent task: messy folder](participant/first-agent-task-messy-folder.md)

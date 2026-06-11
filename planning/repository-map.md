@@ -6,6 +6,9 @@ This file records what belongs where as the workshop materials grow.
 
 - `README.md` - repository entry point for the workshop.
 - `planning/workshop-page.md` - registration-page copy and workshop description.
+- `docs/page-source/activities.md` - Markdown source for the GitHub Pages activity guide.
+- `docs/index.html` - generated GitHub Pages activity guide.
+- `docs/styles.css` - styles for the generated GitHub Pages activity guide.
 
 ## Planning Materials
 
@@ -14,6 +17,7 @@ This file records what belongs where as the workshop materials grow.
 - `planning/cli-workflow-exercise-plan.md` - survey and recommended exercise ladder for Git, GitHub, sample packaging, and Cloudflare publishing.
 - `planning/decision-log.md` - durable design decisions.
 - `planning/repository-map.md` - this file.
+- `.github/workflows/pages.yml` - GitHub Pages deployment workflow for the generated `docs/` site.
 
 ## Participant Materials
 
@@ -23,6 +27,7 @@ This file records what belongs where as the workshop materials grow.
 - `participant/git-github-exercise.md` - participant-facing Git and optional GitHub workflow.
 - `participant/cloudflare-publishing-exercise.md` - participant-facing static-output and optional Cloudflare Pages workflow.
 - `sample-files/` - downloadable sample folders for hands-on Codex exercises.
+- `workshop-sample-files.zip` - direct-download bundle linked from the activity guide.
 - Future files can include handouts, worksheets, and quick-reference guides.
 
 ## Sample Files
