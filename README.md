@@ -65,4 +65,5 @@ agents-for-reproducibility/
 - [Exercise folder](exercises/)
 - [Agent Skills exercise](exercises/agent-skills/)
 - [Fictional sample project](exercises/sample-project/)
+- [Project-management sample project](exercises/project-management-sample-project/)
 - [Static website draft](exercises/website/)
