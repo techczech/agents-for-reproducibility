@@ -1,6 +1,16 @@
-# Participant Tasks
+# Extended Sample-Project Tasks
 
-Work through these tasks with Codex. The aim is not to get the agent to produce a perfect answer. The aim is to make the research process visible and to see how Codex combines a language model with files, folders, command-line tools, versioning, and external services.
+These tasks are an extended or alternative route through the fictional research sample project.
+
+The main slide-led workshop path now uses:
+
+- `sample-files/messy-research-archive/` for the first folder-inspection task.
+- `sample-files/project-management-sample-project/` for exploring `AGENTS.md` and richer project setup.
+- `sample-files/research-data-for-replication/` for the data/reproducibility activity.
+
+Use this file when there is extra time, when participants need a self-contained practice sequence, or when the session needs a local-only fallback.
+
+The aim is not to get the agent to produce a perfect answer. The aim is to make the research process visible and to see how Codex combines a language model with files, folders, command-line tools, versioning, and external services.
 
 ## 1. Inspect the Project
 
