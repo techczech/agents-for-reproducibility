@@ -30,6 +30,8 @@ The first version is planned as a full-day, in-person workshop. The day gives pa
 
 See [planning/session-outline.md](planning/session-outline.md) for the current structure.
 
+Public handout page: [dominiks-handouts.pages.dev/oa8c](https://dominiks-handouts.pages.dev/oa8c).
+
 ## About the Facilitator
 
 Dominik is an AI Consultant at the Oxford e-Research Centre and part of the University's AI Competency Centre. His work connects applied AI, academic practice, linguistics, education technology, accessibility, and research workflows. He designs practical training and tools that help researchers use generative AI with clearer documentation, evidence, and review.
@@ -58,6 +60,7 @@ agents-for-reproducibility/
 ## Core Materials
 
 - [Workshop page copy](planning/workshop-page.md)
+- [Public handout page](https://dominiks-handouts.pages.dev/oa8c)
 - [Session outline](planning/session-outline.md)
 - [Participant setup checklist](participant/setup-checklist.md)
 - [Git and GitHub exercise](participant/git-github-exercise.md)
